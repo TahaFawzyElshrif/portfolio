@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Taha Fawzy Anwar</h1>
+    <p>AI Developer | Specializing in Deep Learning and Android Development</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <img src="images/me.png" alt="Your photo" class="about-image">
+      <p style="text-indent: 4em;">
+        Innovative AI Engineer with 3 years of hands-on experience in developing AI models across diverse projects. Passionate about leveraging cutting-edge technologies to drive business growth. Proficient in Android development, with a focus on creating high-quality, user-friendly applications.
+        My academic journey has provided a solid foundation in operating systems, cloud computing, and software engineering. Additionally, I possess expertise in developing innovative desktop applications, showcasing a versatile skill set across multiple platforms. 
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="project-carousel">
+        <div class="project">
+          <h3>Traffic Manager</h3>
+          <br>
+          <p>An intelligent traffic signal control system trained using Reinforcement Learning. Developed and tested through simulation, with performance analyzed and validated on a physical prototype as part of a graduation project.</p>
+          <img src="images/traffic.png" alt="Traffic Manager project screenshot">
+        </div>
+        <div class="project">
+          <h3>GEMY Robot</h3>
+          <br>
+          <p>Developed a chatbot robot using ESP32 and Android (Java), focusing on design and implementation.</p>
+          <img src="images/gemy.png" alt="AI Chatbot App screenshot">
+        </div>
+        <div class="project">
+          <h3>Mango Explorer</h3>
+          <br>
+          <p>Lead developer of an Android mini file explorer application; designed and developed the app, with compression features mostly handled by the team</p>
+          <img src="images/mango.png" alt="Mango Explorer">
+        </div>
+        <div class="project">
+          <h3>XO Game - AI-Powered Android Tic-Tac-Toe </h3>
+          <br>
+          <p>Developed an AI-driven Tic-Tac-Toe game using Java and Python, implementing the alphabeta pruning algorithm.</p>
+          <img src="images/xo.png" alt="XO Game">
+        </div>
+        <div class="project">
+          <h3>Pandas Background</h3>
+          <br>
+          <p>An Android application for removing or replacing image backgrounds and applying ToF camera effects using computer vision. Built with YOLO, Android, FastAPI, and HttpClient.</p>
+          <img src="images/background.png" alt="Background Remover">
+        </div>
+        <div class="project">
+          <h3>SVM-Hinge - Python Package</h3>
+          <br>
+          <p>Created a Python pip package for SVM classification, implementing hinge loss and subgradient descent</p>
+          <img src="images/pip.jpeg" alt="SVM-Hinge">
+        </div>
+        <div class="project">
+          <h3>Health Attributes Analysis Using Multivariate Techniques</h3>
+          <br>
+          <p>Led the development and execution of multivariate analysis, including MANOVA, to analyze health attributes of populations across various countries.</p>
+        </div>
+        <div class="project">
+          <h3>Recipeleng - Food Analysis Using Graph Analysis</h3>
+          <br>
+          <p>Lead developer of a food analysis project utilizing graph analysis techniques to explore ingredient relationships and dietary patterns.</p>
+        </div>
+        <div class="project">
+          <h3>Reuters Text Classification</h3>
+          <br>
+          <p>Engineered a machine learning model to enhance Reuters news categorization efficiency by 90%, focusing on data preprocessing and model implementation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <h2>Certificates</h2>
+      <div class="certificates">
+        <ul>
+          <li>IBM Badge in Generative AI and LLM</li>
+          <li>IBM Badge in Computer Vision Principles</li>
+          <li>Computer Vision Certificate from Colorado Builder</li>
+          <li>Machine Learning - Deeplearning.ai</li>
+          <li>Mahara Tech Android Development Certificate</li>
+          <li>Linux Foundation Certification</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <ul>
+          <li>Machine learning</li>
+          <li>Large Language Models (LLMs)</li>
+          <li>Computer Vision</li>
+          <li>Reinforcement Learning</li>
+          <li>IoT Development</li>
+          <li>Data analysis ,Social media analysis ,Graph analysis , Multivariate analysis</li>
+          <li>Python, Java</li>
+          <li>TensorFlow, PyTorch, Hugging Face</li>
+          <li>Android Studio</li>
+          <li>REST APIs, MySQL, fastapi ,Stream Processing</li>
+          <li>Docker, Linux, Git, Cloud Computing basics</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: tahaelshrif1@gmail.com</p>
+      <p>GitHub: <a href="#" style="color:#007bff">https://github.com/TahaFawzyElshrif</a></p>
+      <p>LinkedIn: <a href="#" style="color:#007bff">www.linkedin.com/in/taha-elshrif</a></p>
+    </section>
+  </div>
+
+  <!-- Modal for image zoom -->
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <footer>
+    <p>&copy; 2025 taha-elshrif. </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
